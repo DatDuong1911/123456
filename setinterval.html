@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #progress {
+            width: 100%;
+            background-color: grey;
+        }
+        
+        #bar {
+            width: 1%;
+            height: 30px;
+            background-color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <span>Bay gio la: </span> <span id="demo"></span>
+
+    <div id="progress">
+        <div id="bar"></div>
+    </div>
+    <button type="button" onclick="bam()"></button>
+</body>
+<script>
+    var time = setInterval(dongho, 1000)
+
+    function dongho() {
+        var tgian = new Date();
+        document.getElementById("demo").innerHTML = tgian.toLocaleTimeString()
+    }
+    var i = 0;
+    function bam()
+    {
+        if (i==0){
+            
+        }
+    }
+</script>
+
+</html>
